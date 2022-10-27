@@ -8,6 +8,6 @@
   <li><p>Open https://www.studentlitteratur.se</p></li>
   <li><p>Choose a book</p></li>
   <li><p>Choose exercise</p></li>
-  <li><p>Open browser developer tools with `Ctrl + Shift + i`</p></li>
-  <li><p>Go to the console tab and paste the [script](https://raw.githubusercontent.com/Nqtural/Studentlitteratur-bot/main/script.js) from script.js</p></li>
+  <li><p>Open browser developer tools with <code>Ctrl + Shift + i</code></p></li>
+  <li><p>Go to the console tab and paste the <a href="https://raw.githubusercontent.com/Nqtural/Studentlitteratur-bot/main/script.js">script</a> from script.js</p></li>
 </ul>
