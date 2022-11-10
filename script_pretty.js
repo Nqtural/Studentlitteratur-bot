@@ -17,7 +17,9 @@ async function main() {
                     }
                 }
             }
-            await sleep(10)
+            for (var x=0; x<3; x++) {
+                document.getElementById("multiple-choice-alt-q0a" + String(x)).click()
+            } await sleep(10)
         }
         catch {
             console.log("All fields are filled in");
