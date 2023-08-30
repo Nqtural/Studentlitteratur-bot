@@ -14,7 +14,7 @@ async function main() {
             }
         }
         catch {
-            continue
+            console.log("Not wordmatch")
         }
         finally {
             await sleep(10)
