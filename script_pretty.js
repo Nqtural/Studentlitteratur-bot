@@ -7,6 +7,19 @@ function sleep(ms) {
 async function main() {
     while (true) {
         try {
+            for (let i = 0; i < 12; i++) {
+                for (const c of document.querySelector(".question-column").children[1].children) {
+                    c.children[0].click();
+                }
+            }
+        }
+        catch {
+            continue
+        }
+        finally {
+            await sleep(10)
+        }
+        try {
             for (let i = 0; i < document.getElementsByClassName("mediablock").length; i++) {
                 if (document.getElementsByClassName("mediablock")[i].parentElement.parentElement.className == "popover-content") {
                     for (let j = 0; document.getElementsByClassName("form-control").length; j++) {
@@ -17,9 +30,6 @@ async function main() {
                     }
                 }
             }
-            for (var x=0; x<3; x++) {
-                document.getElementById("multiple-choice-alt-q0a" + String(x)).click()
-            } await sleep(10)
         }
         catch {
             console.log("All fields are filled in");
