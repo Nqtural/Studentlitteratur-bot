@@ -13,6 +13,6 @@
 </ul>
 <h2>Bookmarklet</h2>
 <ul>
-  <li>Add a new bookmark and change the url field to `javascript:(()=>{INSERT BOT HERE})();`</li>
+  <li>Add a new bookmark and change the url field to <code>javascript:(()=>{INSERT BOT HERE})();</code></li>
   <li>Replace `INSERT SCRIPT HERE` with the latest version of the <a href="https://raw.githubusercontent.com/Nqtural/Studentlitteratur-bot/main/bot.js">script</a>.</li>
 </ul>
