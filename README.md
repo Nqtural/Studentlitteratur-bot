@@ -9,5 +9,10 @@
   <li><p>Choose a book</p></li>
   <li><p>Choose exercise</p></li>
   <li><p>Open browser developer tools with <code>Ctrl + Shift + i</code></p></li>
-  <li><p>Go to the console tab and paste the <a href="https://raw.githubusercontent.com/Nqtural/Studentlitteratur-bot/main/script.js">script</a> from script.js</p></li>
+  <li><p>Go to the console tab and paste the <a href="https://raw.githubusercontent.com/Nqtural/Studentlitteratur-bot/main/bot.js">script</a> from bot.js</p></li>
+</ul>
+<h2>Bookmarklet</h2>
+<ul>
+  <li>Add a new bookmark and change the url field to `javascript:(()=>{INSERT BOT HERE})();`</li>
+  <li>Replace `INSERT SCRIPT HERE` with the latest version of the <a href="https://raw.githubusercontent.com/Nqtural/Studentlitteratur-bot/main/bot.js">script</a>.</li>
 </ul>
