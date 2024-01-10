@@ -20,8 +20,8 @@ async function main() {
             await sleep(10)
         }
         try {
-            for (let i=0;i<document.querySelector(".answer-list").childElementCount;i++) {
-	            for (let j=0;j<document.querySelector(".question-list").childElementCount;j++) {
+            for (let i = 0; i < document.querySelector(".answer-list").childElementCount; i++) {
+	            for (let j = 0; j < document.querySelector(".question-list").childElementCount; j++) {
 		            document.querySelector(".question-list").children[j].children[0].click()
 	            }
             }
@@ -33,7 +33,7 @@ async function main() {
             await sleep(10)
         }
 	try {
-            for (let i=0;i<document.querySelector(".answer-wrapper").childElementCount;i++) {
+            for (let i = 0; i < document.querySelector(".answer-wrapper").childElementCount; i++) {
 		document.querySelector(".answer-wrapper").children[i].children[0].click()
 	    }
 	}
