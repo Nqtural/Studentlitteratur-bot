@@ -48,7 +48,7 @@ async function main() {
                 if (document.getElementsByClassName("mediablock")[i].parentElement.parentElement.className == "popover-content") {
                     for (let j = 0; document.getElementsByClassName("form-control").length; j++) {
                         if (document.getElementsByClassName("form-control")[j].value == "") {
-                            document.getElementsByClassName("form-control")[j].value = document.getElementsByClassName("mediablock")[i].innerText.split(",")[0].split(" / ")[0];
+                            document.getElementsByClassName("form-control")[j].value = document.getElementsByClassName("mediablock")[i].innerText.split(",")[0].split(" / ")[0].split("/")[0];
                             break
                         }
                     }
