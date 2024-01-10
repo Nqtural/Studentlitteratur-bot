@@ -18,6 +18,7 @@
   <li>Add a new bookmark and change the url field to <code>javascript:(()=>{INSERT SCRIPT HERE})();</code></li>
   <li>Replace `INSERT SCRIPT HERE` with the latest version of the <a href="https://raw.githubusercontent.com/Nqtural/Studentlitteratur-bot/main/bot.js">script</a>.</li>
 </ul>
+<h3>Remote</h3>
 <p>A remote bookmarklet that loads the code from github (meaning always up to date) can be added like this:</p>
 <ul>
   <li>Add a new bookmark and change the url filed to <code>javascript:(()=>{script = document.createElement("script");script.setAttribute('src','https://cdn.jsdelivr.net/gh/nqtural/studentlitteratur-bot@latest/bot.js');if(script.addEventListener){script.addEventListener("load",function(){main();},false);}else if(script.readyState){script.onreadystatechange=function(){main();};}else{script.onload=function(){main();};}document.body.appendChild(script);})();</code></li>
