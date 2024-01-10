@@ -32,6 +32,17 @@ async function main() {
         finally {
             await sleep(10)
         }
+	try {
+            for (let i=0;i<document.querySelector(".answer-wrapper").childElementCount;i++) {
+		document.querySelector(".answer-wrapper").children[i].children[0].click()
+	    }
+	}
+	catch {
+	    console.log("Not word choice (2 words)")
+	}
+	finally {
+	    await sleep(10)
+	}
         try {
             for (let i = 0; i < document.getElementsByClassName("mediablock").length; i++) {
                 if (document.getElementsByClassName("mediablock")[i].parentElement.parentElement.className == "popover-content") {
