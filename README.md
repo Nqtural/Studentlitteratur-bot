@@ -22,4 +22,4 @@
 <ul>
   <li>Add a new bookmark and change the url filed to <code>javascript:(()=>{script = document.createElement("script");script.setAttribute('src','https://cdn.jsdelivr.net/gh/nqtural/studentlitteratur-bot@latest/bot.js');if(script.addEventListener){script.addEventListener("load",function(){main();},false);}else if(script.readyState){script.onreadystatechange=function(){main();};}else{script.onload=function(){main();};}document.body.appendChild(script);})();</code></li>
 </ul>
-<p>A remote bookmarklet is a security risk, but significantly less maintenence is required. if this repository or GitHub gets hacked, I have no contol over what code gets loaded into your browser when you use the bookmarklet.</p>
+<p>A remote bookmarklet requires less maintainence than a local one, however it does pose a security risk. If this repository or GitHub gets hacked, I have no contol over what code gets loaded into your browser when you use the bookmarklet.</p>
